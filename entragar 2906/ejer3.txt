@@ -1,0 +1,17 @@
+void main() {
+  int numprimo= primo(3);
+  if(numprimo==0){
+    print("el numero es primo");
+  }else{
+    print("o numero nao e primo");
+  }
+ 
+ }
+  int primo(nume){
+    int test= nume%2;
+    if(test==0){
+      return(0);
+    }else{
+      return(1);
+    }
+  }

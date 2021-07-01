@@ -1,0 +1,13 @@
+void main() {
+  double menor=numeromenor(6,8);
+  
+  print(menor);
+ 
+ }
+double numeromenor(double num1, double num2){
+  if(num1>num2){
+    return(num2);
+  }else{
+    return(num1);
+  }
+}

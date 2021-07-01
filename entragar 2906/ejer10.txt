@@ -1,0 +1,20 @@
+void main() {
+  String numeros= test(3,5);
+  print(numeros);
+ }
+  dynamic test(nume,nume1){
+    int suma=nume+nume1;
+    int produ=nume*(nume1*nume1);
+    int qpri=nume*nume;
+    int d=((suma)*2)*3;
+    double e=d/2;
+    
+    
+    return("a) A soma dos números; $suma \n"
+  "b) O produto do primeiro número pelo quadrado do segundo;$produ \n"
+  "c) O quadrado do primeiro número; $qpri \n"
+  "d) O triplo do dobro da soma dos dois números $d \n"
+  "e) A metade do triplo do dobro da soma dos dois números $e \n"
+  "f) O módulo do primeiro número  $nume"
+    );
+  }

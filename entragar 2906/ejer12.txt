@@ -1,0 +1,19 @@
+void main() {
+double numero1=6;
+ double numero2=6;
+  String opr="-";
+  if(opr=="+"){
+    double opera=numero1+numero2;
+    print(opera);
+  }else if(opr=="-"){
+    double opera=numero1-numero2;
+    print(opera);
+  }else if(opr=="*"){
+    double opera=numero1*numero2;
+    print(opera);
+  }else if(opr=="/"){
+    double opera=numero1/numero2;
+    print(opera);
+  }
+} 
+

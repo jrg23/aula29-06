@@ -1,0 +1,11 @@
+        void main() {
+  int suma= nume(2,4);
+          print("o valor de la suma =");
+          print(suma);
+
+ }
+  dynamic nume(nume1,nume2)
+  {
+   int sumar=nume1+nume2;
+    return(sumar);
+  }

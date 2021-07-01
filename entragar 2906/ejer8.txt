@@ -1,0 +1,19 @@
+ void main() {
+  String con=nota(7);
+  print("o conceito do alumno e:"+con);
+
+ }
+  dynamic nota(num1)
+  {
+   if(num1>=5 && num1<=7){
+     return("infantil A");
+   }else if(num1>=8 && num1<=10){
+     return("infantil b");
+   }else if(num1>=11 && num1<=13){
+     return("juvenil a");
+  }else if(num1>=14 && num1<=17){
+     return("infantil b");
+   }else{
+     return("fora de categoria");
+   }
+  }

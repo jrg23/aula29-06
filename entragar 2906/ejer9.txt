@@ -1,0 +1,17 @@
+void main() {
+  int par= test(3);
+  if(par==0){
+    print("el numero es par");
+  }else{
+    print("o numero nao e impar");
+  }
+ 
+ }
+  int test(nume){
+    int test= nume%2;
+    if(test==0){
+      return(0);
+    }else{
+      return(1);
+    }
+  }

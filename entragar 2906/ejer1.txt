@@ -1,0 +1,24 @@
+void main() {
+  double mediap=calmediap(6,8,4);
+  print(mediap);
+ 
+ }
+ String letra="a";
+  double calmediap(double m1, double m2, double m3){
+  if (letra=="a"){
+    double resultado=(m1+m2-m3)/3;
+    return(resultado);
+  }else if(letra=="b"){
+    
+double resultado=(3*m1+4*m2+2*m3)/16;
+    return(resultado);    
+  }else if(letra=="c"){
+    
+double resultado=(m1+m2+m3)/((2*2*2*3)/3);
+    return(resultado);    
+  }else{
+    return(0);
+  }
+  
+  
+}

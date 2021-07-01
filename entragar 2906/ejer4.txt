@@ -1,0 +1,17 @@
+void main() {
+  bool snume= nume(2);
+  if(snume==false){
+    print("o numero e negativo");
+  }else{
+    print("o numero e positivo");
+  }
+  
+ }
+  dynamic nume(numer)
+  {
+    if (numer>=0){
+      return(true);
+    }else{
+      return(false);
+    }
+  }
